@@ -141,29 +141,6 @@ const Modal: React.FC<ModalProps> = ({ open, onClose, project }) => {
                 </motion.button>
               </div>
 
-              {/* Enhanced description */}
-              <motion.div
-                className="relative mb-6"
-                initial={{ y: 20, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                transition={{ delay: 0.2 }}
-              >
-                <motion.div
-                  className="absolute inset-0 bg-gradient-to-r from-transparent via-indigo-500/5 to-transparent rounded-lg"
-                  animate={{
-                    x: ["-100%", "100%"],
-                  }}
-                  transition={{
-                    duration: 3,
-                    repeat: Infinity,
-                    ease: "easeInOut",
-                  }}
-                />
-                <p className="text-gray-300 leading-relaxed relative z-10 text-base">
-                  {project.desc}
-                </p>
-              </motion.div>
-
               {/* Enhanced tech stack */}
               <motion.div
                 className="mb-6"
@@ -361,5 +338,6 @@ const Modal: React.FC<ModalProps> = ({ open, onClose, project }) => {
     </AnimatePresence>
   );
 };
+
 
 export default Modal;
