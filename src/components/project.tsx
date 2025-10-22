@@ -4,6 +4,7 @@ interface ProjectType {
   stack: string[];
   details: string[];
   links: { code: string; demo: string };
+  timeline?: string; 
 }
 
 const PROJECTS: ProjectType[] = [
@@ -11,9 +12,10 @@ const PROJECTS: ProjectType[] = [
     title: "Lab360° - All-in-One Lab Management Platform",
     desc: "Comprehensive university lab and asset management platform with QR/Barcode tracking, AI-driven analytics, and role-based dashboards for Admins, Lab Technicians, and Faculty.",
     stack: ["Next.js", "NextAuth.js", "MongoDB"],
+    timeline: "September 2025 - Present",
     details: [
       "Designed a unified full-stack system to manage laboratories, PCs, and institutional assets across departments.",
-      "Role-based access (Admin, Technician, Faculty) with secure authentication & email credential distribution.",
+      "Role-based dashboards (Admin, Technician, Faculty) with secure authentication and email credential distribution.",
       "Implemented QR/Barcode tracking, subject-wise experiment management, lab timetable scheduling, and predictive maintenance insights using AI.",
       "Built interactive analytics dashboards with usage trends, depreciation tracking, and department-wise reports for compliance.",
     ],
@@ -26,6 +28,7 @@ const PROJECTS: ProjectType[] = [
     title: " HealingNeuro - A Depression Monitoring System",
     desc: "AI-Powered Web Application & Chrome Extension, a full-stack project integrating ML/DL models, REST APIs, authentication, and real-time AI activity suggestions with OpenAI & DeepSeek R1.",
     stack: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "Flask", "SQLite", "Gen AI"],
+    timeline: "May 2024 - December 2024",
     details: [
       "Developed responsive web app & Chrome extension with 91% predictive accuracy using ML/DL models.",
       "Engineered REST APIs, JWT, OAuth for authentication, session management & DOM manipulation.",
@@ -40,6 +43,7 @@ const PROJECTS: ProjectType[] = [
     title: "Fluentia - Find Your Flow",
     desc: "Modern communication platform with real-time messaging, video calls, and community-driven features built for scalability and engagement.",
     stack: ["MongoDB", "Express.js", "React.js", "Node.js", "JWT", "Stream API", "WebRTC"],
+    timeline: "June 2025 - August 2025",
     details: [
       "Developed real-time messaging & high-quality video calling with MERN stack & Stream API.",
       "Implemented secure data handling & scalable architecture supporting group calls.",
@@ -60,9 +64,10 @@ const PROJECTS: ProjectType[] = [
       "OAuth",
       "Stripe API",
     ],
+    timeline: "March 2025 - May 2025",
     details: [
       "Built full-stack e-commerce platform with MERN stack featuring multi-vendor support.",
-      "Implemented secure authentication with JWT & OAuth; role-based access for Customers, Vendors, and Admins.",
+      "Implemented secure authentication with JWT (httpOnly cookies) & OAuth; role-based access for Customers, Vendors, and Admins.",
       "Developed vendor dashboards for product/order management and admin panel for global order/user/vendor control.",
       "Integrated Stripe payment gateway with order tracking, shipping estimation & delivery status.",
     ],
@@ -72,6 +77,7 @@ const PROJECTS: ProjectType[] = [
     title: "BlogNest - A Mega Blog Application",
     desc: "Modern blogging platform with advanced React ecosystem, Appwrite backend, and optimized state management.",
     stack: ["React.js", "Tailwind CSS", "React Router", "Context API", "Redux Toolkit", "Appwrite"],
+    timeline: "January 2025 - Fabruary 2025",
     details: [
       "Built fully responsive UI with React.js, Tailwind CSS, and React Router for seamless navigation.",
       "Enhanced state management using Context API & Redux Toolkit, improving code efficiency by 15%.",
@@ -84,8 +90,4 @@ const PROJECTS: ProjectType[] = [
   },
 ];
 
-
 export default PROJECTS;
-
-
-
