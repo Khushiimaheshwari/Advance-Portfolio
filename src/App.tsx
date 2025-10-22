@@ -490,6 +490,11 @@ export default function App(): React.JSX.Element {
                       transition={{ type: "spring", stiffness: 300 }}>
                       {p.title}
                     </motion.h3>
+                    {p.timeline && (
+                      <p className="mt-1 text-xs text-indigo-300 font-medium">
+                        {p.timeline}
+                      </p>
+                    )}
                     <p className="mt-2 text-sm text-gray-300 line-clamp-3">
                       {p.desc}
                     </p>
