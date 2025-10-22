@@ -17,6 +17,8 @@ interface Project {
   stack: string[];
   details?: string[];
   links?: ProjectLinks;
+  timeline?: string; 
 }
+
 
 export type { LinkType, Project, ProjectLinks };
