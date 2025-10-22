@@ -10,7 +10,7 @@ const PROJECTS: ProjectType[] = [
   {
     title: "Lab360° - All-in-One Lab Management Platform",
     desc: "Comprehensive university lab and asset management platform with QR/Barcode tracking, AI-driven analytics, and role-based dashboards for Admins, Lab Technicians, and Faculty.",
-    stack: ["Next.js", "NextAuth.js", "MongoDB", "EmailJS"],
+    stack: ["Next.js", "NextAuth.js", "MongoDB"],
     details: [
       "Designed a unified full-stack system to manage laboratories, PCs, and institutional assets across departments.",
       "Developed role-based dashboards (Admin, Technician, Faculty) with secure authentication and email credential distribution.",
@@ -86,3 +86,4 @@ const PROJECTS: ProjectType[] = [
 
 
 export default PROJECTS;
+
