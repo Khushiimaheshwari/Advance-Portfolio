@@ -215,8 +215,10 @@ function Navbar(): React.JSX.Element {
                     onClick={(e) => {
                       e.preventDefault();
                       setOpen(false);
-                      const section = document.querySelector(l.href);
-                      section?.scrollIntoView({ behavior: "smooth" });
+                      setTimeout(() => {  // Wait for menu to collapse
+                        const section = document.querySelector(l.href);
+                        section?.scrollIntoView({ behavior: "smooth" });
+                      }, 300);
                     }}
                     initial={{ opacity: 0, x: -20 }}
                     animate={{ opacity: 1, x: 0 }}
@@ -241,5 +243,6 @@ function Navbar(): React.JSX.Element {
     </motion.div>
   );
 }
+
 
 export default Navbar;
