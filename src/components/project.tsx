@@ -13,7 +13,7 @@ const PROJECTS: ProjectType[] = [
     stack: ["Next.js", "NextAuth.js", "MongoDB"],
     details: [
       "Designed a unified full-stack system to manage laboratories, PCs, and institutional assets across departments.",
-      "Developed role-based dashboards (Admin, Technician, Faculty) with secure authentication and email credential distribution.",
+      "Developed role-based access (Admin, Technician, Faculty) with secure authentication & email credential distribution.",
       "Implemented QR/Barcode tracking, subject-wise experiment management, lab timetable scheduling, and predictive maintenance insights using AI.",
       "Built interactive analytics dashboards with usage trends, depreciation tracking, and department-wise reports for compliance.",
     ],
@@ -86,4 +86,5 @@ const PROJECTS: ProjectType[] = [
 
 
 export default PROJECTS;
+
 
