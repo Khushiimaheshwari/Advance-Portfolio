@@ -8,7 +8,7 @@ interface ExperienceType {
 const EXPERIENCE: ExperienceType[] = [
   {
     org: "Consort Digital",
-    role: "Software Engineer Intern",
+    role: "Software Engineer Trainee",
     period: "October 2025 - Present",
     bullets: [
       "Tech Stack: HTML, CSS, Javascript, React.js, Node.js, Electron and MySQL.",
@@ -29,4 +29,5 @@ const EXPERIENCE: ExperienceType[] = [
 ];
 
 export default EXPERIENCE;
+
 export type { ExperienceType };
