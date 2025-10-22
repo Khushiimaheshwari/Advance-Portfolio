@@ -10,14 +10,12 @@ const PROJECTS: ProjectType[] = [
   {
     title: "Lab360° - All-in-One Lab Management Platform",
     desc: "Comprehensive university lab and asset management platform with QR/Barcode tracking, AI-driven analytics, and role-based dashboards for Admins, Lab Technicians, and Faculty.",
-    stack: ["React.js", "Tailwind CSS", "Framer Motion", "Redux Toolkit", "React Redux", "EmailJS"],
+    stack: ["Next.js", "NextAuth.js", "MongoDB", "EmailJS"],
     details: [
       "Designed a unified full-stack system to manage laboratories, PCs, and institutional assets across departments.",
       "Developed role-based dashboards (Admin, Technician, Faculty) with secure authentication and email credential distribution.",
-      "Implemented subject-wise experiment management, lab timetable scheduling, and predictive maintenance insights using AI.",
+      "Implemented QR/Barcode tracking, subject-wise experiment management, lab timetable scheduling, and predictive maintenance insights using AI.",
       "Built interactive analytics dashboards with usage trends, depreciation tracking, and department-wise reports for compliance.",
-      "Integrated QR/Barcode tagging for real-time tracking and maintenance logging.",
-
     ],
     links: {
       code: "https://github.com/Khushiimaheshwari/Smart-Inventory-and-Resource-Management-System",
@@ -64,7 +62,7 @@ const PROJECTS: ProjectType[] = [
     ],
     details: [
       "Built full-stack e-commerce platform with MERN stack featuring multi-vendor support.",
-      "Implemented secure authentication with JWT (httpOnly cookies) & OAuth; role-based access for Customers, Vendors, and Admins.",
+      "Implemented secure authentication with JWT & OAuth; role-based access for Customers, Vendors, and Admins.",
       "Developed vendor dashboards for product/order management and admin panel for global order/user/vendor control.",
       "Integrated Stripe payment gateway with order tracking, shipping estimation & delivery status.",
     ],
@@ -85,5 +83,6 @@ const PROJECTS: ProjectType[] = [
     },
   },
 ];
+
 
 export default PROJECTS;
