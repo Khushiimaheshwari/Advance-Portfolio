@@ -21,7 +21,7 @@ const PROJECTS: ProjectType[] = [
     ],
     links: {
       code: "https://github.com/Khushiimaheshwari/Smart-Inventory-and-Resource-Management-System",
-      demo: "#",
+      demo: "https://smart-inventory-and-resource-manage.vercel.app/",
     },
   },
   {
@@ -49,7 +49,25 @@ const PROJECTS: ProjectType[] = [
       "Implemented secure data handling & scalable architecture supporting group calls.",
       "Integrated AI chat partners & gamification features to boost user engagement."
     ],
-    links: { code: "https://github.com/Khushiimaheshwari/Fluentia", demo: "#" },
+    links: { 
+      code: "https://github.com/Khushiimaheshwari/Fluentia", 
+      demo: "https://fluentia-frontend-steel.vercel.app/" 
+    },
+  },
+   {
+    title: " HealingNeuro - A Depression Monitoring System",
+    desc: "AI-Powered Web Application & Chrome Extension, a full-stack project integrating ML/DL models, REST APIs, authentication, and real-time AI activity suggestions with OpenAI & DeepSeek R1.",
+    stack: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "Flask", "SQLite", "Gen AI"],
+    timeline: "May 2024 - December 2024",
+    details: [
+      "Developed responsive web app & Chrome extension with 91% predictive accuracy using ML/DL models.",
+      "Engineered REST APIs, JWT, OAuth for authentication, session management & DOM manipulation.",
+      "Implemented real-time AI-based activity suggestions powered by OpenAI & DeepSeek R1 APIs.",
+    ],
+    links: {
+      code: "https://github.com/Khushiimaheshwari/HealingNeuro--A-Depression-Monitoring-System",
+      demo: "https://drive.google.com/drive/folders/1kOwLR07KjO3qswaVTdNuXEVv1hpmGV_n?usp=drive_link",
+    },
   },
   {
     title: "TrendÉclat - E-Commerce Platform",
@@ -91,3 +109,4 @@ const PROJECTS: ProjectType[] = [
 ];
 
 export default PROJECTS;
+
