@@ -11,9 +11,9 @@ const EXPERIENCE: ExperienceType[] = [
     role: "Software Engineer Trainee",
     period: "October 2025 - Present",
     bullets: [
-      "Tech Stack: HTML, CSS, Javascript, React.js, Node.js, Electron and MySQL.",
-      "Developed a cross-platform desktop application using Electron, converting the company’s existing web-based Dispatcher application into a full-featured desktop solution with support for Windows, macOS, and Linux.",
-      "Improved application accessibility and performance by reducing browser dependency, achieving a 35% boost."
+      "Tech Stack:  HTML, CSS, Javascript, React.js, Node.js, Docker, Kubernetes and MySQL",
+      "Implemented a robust registration module with optimized server-side logic, achieving a 25% reduction in registration errors for mission-critical communications.",
+      "Developed and maintained the CMS module, reducing server response time by 35% through effective caching strategies and optimized database queries."
     ],
   },
   {
@@ -21,7 +21,7 @@ const EXPERIENCE: ExperienceType[] = [
     role: "Tech Intern",
     period: "August 2025 - September 2025",
     bullets: [
-      "Tech Stack: PHP, HTML, CSS, SCSS, JavaScript and AI.",
+      "Tech Stack: PHP, HTML, CSS, SCSS, JavaScript, Python and AI.",
       "Coordinated a topic-wise framework for Sunstone LMS with a scalable structure and Sunstone FORMA, OCR and AI Grading , reducing workload by 55%.",
       "Enhanced Sunstone Moodle frontend layout and transitioned CodeRunner to Virtual Programming Lab (VPL).",
     ],
@@ -31,3 +31,4 @@ const EXPERIENCE: ExperienceType[] = [
 export default EXPERIENCE;
 
 export type { ExperienceType };
+
