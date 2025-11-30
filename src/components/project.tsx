@@ -25,21 +25,6 @@ const PROJECTS: ProjectType[] = [
     },
   },
   {
-    title: " HealingNeuro - A Depression Monitoring System",
-    desc: "AI-Powered Web Application & Chrome Extension, a full-stack project integrating ML/DL models, REST APIs, authentication, and real-time AI activity suggestions with OpenAI & DeepSeek R1.",
-    stack: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "Flask", "SQLite", "Gen AI"],
-    timeline: "May 2024 - December 2024",
-    details: [
-      "Developed responsive web app & Chrome extension with 91% predictive accuracy using ML/DL models.",
-      "Engineered REST APIs, JWT, OAuth for authentication, session management & DOM manipulation.",
-      "Implemented real-time AI-based activity suggestions powered by OpenAI & DeepSeek R1 APIs.",
-    ],
-    links: {
-      code: "https://github.com/Khushiimaheshwari/HealingNeuro--A-Depression-Monitoring-System",
-      demo: "https://drive.google.com/drive/folders/1kOwLR07KjO3qswaVTdNuXEVv1hpmGV_n?usp=drive_link",
-    },
-  },
-  {
     title: "Fluentia - Find Your Flow",
     desc: "Modern communication platform with real-time messaging, video calls, and community-driven features built for scalability and engagement.",
     stack: ["MongoDB", "Express.js", "React.js", "Node.js", "JWT", "Stream API", "WebRTC"],
@@ -109,4 +94,5 @@ const PROJECTS: ProjectType[] = [
 ];
 
 export default PROJECTS;
+
 
