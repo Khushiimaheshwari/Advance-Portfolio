@@ -58,6 +58,8 @@ const TECHNICAL_SKILLS = [
   { name: "AI", level: 70, color: "from-purple-500 to-pink-500" },
   { name: "Java", level: 92, color: "from-rose-300 to-pink-700" },
   { name: "Python", level: 87, color: "from-amber-50 to-amber-600" },
+  { name: "Docker", level: 70, color: "from-sky-300 to-emerald-500" },
+  { name: "Kubernetes", level: 65, color: "from-pink-400 to-red-500" },
 ];
 
 // Soft Skills Data - matching your image layout
@@ -341,7 +343,7 @@ export default function App(): React.JSX.Element {
               {[
                 { k: "LeetCode Stats", v: "Solved 200+ problems", color: "from-cyan-500 to-blue-500" },
                 { k: "Open Source", v: "15+ public GitHub repos", color: "from-purple-500 to-indigo-500" },
-                { k: "Competitive Coding", v: "Global Rank: 586,081", color: "from-green-500 to-teal-500" },
+                { k: "Competitive Coding", v: "Global Rank: 517,039", color: "from-green-500 to-teal-500" },
                 { k: "DSA Practice", v: "LeetCode, HackerRank, GFG", color: "from-orange-500 to-red-500" },
               ].map((s, i) => (
                 <motion.div
@@ -409,13 +411,10 @@ export default function App(): React.JSX.Element {
               ease: "easeInOut",
             }}
           />
-          I&apos;m a Developer with a detail-oriented approach and a strategic
-          vision, experienced in leading teams and building dynamic web
-          solutions through participation in hackathons and real-world projects.
-          Committed to crafting scalable applications and continuously evolving
-          as a developer through learning and innovation. I also bring hands-on
-          internship experience enabling me to apply practical industry insight
-          to fast-paced, collaborative environments.
+          I&apos;m a developer who combines meticulous attention to detail with a forward-thinking vision, leading teams to create robust web solutions 
+          and engaging user experiences. I thrive on collaboration, curiosity, and ongoing learning, continually turning insights from real-world projects
+          into practical, scalable software. I’ve gained hands-on internship experience that sharpened my industry insight in fast-paced, collaborative 
+          environments, and I’ve actively participated in hackathons to accelerate innovation and deliver impactful results.
         </motion.p>
       </section>
 
