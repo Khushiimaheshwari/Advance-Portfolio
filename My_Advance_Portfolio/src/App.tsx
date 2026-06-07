@@ -49,6 +49,7 @@ const TECHNICAL_SKILLS = [
   { name: "Javascript", level: 88, color: "from-yellow-500 to-orange-500" },
   { name: "Typescript", level: 78, color: "from-stone-300 to-lime-400" },
   { name: "React.js", level: 92, color: "from-blue-500 to-cyan-500" },
+  
   { name: "Next.js", level: 75, color: "from-gray-400 to-gray-700" },
   { name: "Node.js", level: 85, color: "from-green-400 to-emerald-600" },
   { name: "Express.js", level: 85, color: "from-purple-400 to-violet-200" },
